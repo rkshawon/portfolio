@@ -30,7 +30,9 @@ const Works = () => {
               <h5>CSS</h5>
               <h5>Tailwind CSS</h5>
               <h5>Javascrpt</h5>
+              <h5>Typescrpt</h5>
               <h5>ReactJs</h5>
+              <h5>NextJs</h5>
               <h5>Redux</h5>
               <h5>Metarial UI</h5>
               <h5>Ant Design Icon</h5>
@@ -41,6 +43,7 @@ const Works = () => {
               <h5>Express</h5>
               <h5>Mongodb</h5>
               <h5>Sequelize</h5>
+              <h5>prismaORM</h5>
               <h5>PostgreSQL</h5>
               <h5>JWT</h5>
               <h5>SocketIO</h5>

@@ -29,7 +29,11 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>Rk Shawon</span>
           <span>
-            Full Stack Web developer using MERN stack technology to build Web applications.
+            Hey there! 👋 I'm a dynamic Full Stack Web Developer with a passion
+            for crafting seamless and innovative web applications. With 1.5
+            years of hands-on experience, I specialize in leveraging the power
+            of the MERN stack (MongoDB, Express.js, React, Node.js) to bring
+            ideas to life.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>

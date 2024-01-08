@@ -6,8 +6,8 @@ const Contact = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   const form = useRef();
-  const [done, setDone] = useState(false)
-  
+  const [done, setDone] = useState(false);
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -27,10 +27,9 @@ const Contact = () => {
         (error) => {
           console.log(error.text);
         }
-      ).catch(err=>{
-
-      });
-      e.target.reset()
+      )
+      .catch((err) => {});
+    e.target.reset();
   };
 
   return (
@@ -39,7 +38,7 @@ const Contact = () => {
       <div className="w-left">
         <div className="awesome">
           {/* darkMode */}
-          <span style={{color: darkMode?'white': ''}}>Get in Touch</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Get in Touch</span>
           <span>Contact me</span>
           <div
             className="blur s-blur1"
@@ -50,11 +49,21 @@ const Contact = () => {
       {/* right side form */}
       <div className="c-right">
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="to_name" className="user"  placeholder="Name"/>
-          <input type="email" name="from_name" className="user" placeholder="Email"/>
-          <textarea name="message" className="user" placeholder="Message"/>
-          <input type="submit" value="Send" className="button"/>
-          <span>{done && "Thanks for Contacting me"}</span>
+          <input
+            type="text"
+            name="to_name"
+            className="user"
+            placeholder="Name"
+          />
+          <input
+            type="email"
+            name="from_name"
+            className="user"
+            placeholder="Email"
+          />
+          <textarea name="message" className="user" placeholder="Message" />
+          <input type="submit" value="Send" className="button" />
+          <span>{done && "Thanks for contacting me"}</span>
           <div
             className="blur c-blur1"
             style={{ background: "var(--purple)" }}

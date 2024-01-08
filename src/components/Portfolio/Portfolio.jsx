@@ -133,7 +133,7 @@ const Portfolio = () => {
                 </div>
                 <div class="link">
                   <a
-                    href="https://github.com/rkshawon/mchat-server/tree/master"
+                    href="https://github.com/rkshawon/up-share"
                     target="_blank"
                     class="code"
                     rel="noreferrer"
@@ -141,7 +141,7 @@ const Portfolio = () => {
                     Code
                   </a>
                   <a
-                    href="https://mchat-api.herokuapp.com/"
+                    href="https://up-share-livid.vercel.app/"
                     target="_blank"
                     class="button"
                     rel="noreferrer"
@@ -154,25 +154,26 @@ const Portfolio = () => {
               <div class="pleft">
                 <div class="p">
                   <span style={{ color: darkMode ? "white" : "" }}>
-                    MChat (Chat Application)
+                    UpShare (Image upload and sharing platform)
                   </span>
                   <p>
-                    It sends real time messages and shows real time users using
-                    Socket.io. Messages are saved in MongoDB Database. Fully
-                    functional login registration system.
+                    Fully mobile-responsive web application allowing users to
+                    upload and share images. Implemented custom components
+                    throughout the application using Tailwind CSS.Leveraged
+                    Next.js for efficient server-side rendering and enhancing
+                    performance. Integrated Firebase for secure and scalable
+                    image storage, enabling users to upload.
                   </p>
                 </div>
                 <div class="T">
                   <h3>Technology</h3>
                   <div class="techName">
-                    <h4>HTML</h4>
-                    <h4>CSS</h4>
-                    <h4>Javascrpt</h4>
+                    <h4>TailwindCSS</h4>
+                    <h4>Typescrpt</h4>
                     <h4>React</h4>
-                    <h4>Express</h4>
-                    <h4>Nodejs</h4>
-                    <h4>Mongodb</h4>
-                    <h4>Socket.io</h4>
+                    <h4>Nextjs</h4>
+                    <h4>Firebase</h4>
+                    <h4>Resend Email</h4>
                   </div>
                 </div>
               </div>
